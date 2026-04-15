@@ -1,0 +1,106 @@
+<!-- ===================== index.html (Home) ===================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+conect="width=device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style2.css">
+<style>
+ul{
+	position: sticky;
+	top: 0;
+	}
+*{
+  box-sizing: border-box;
+}
+header{
+	background-color: #3876d3;
+	padding: 10px;
+	text-align:center; 
+	}
+ul.topnav {
+  display: flex;
+  list-style-type: none;
+  margin: 0
+  
+  padding: 0;
+  background-color: #2C3E50;
+}
+
+/* Style links in topnav */
+ul.topnav li a {
+  display: block;
+  color: #f1f1f1;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+	/* Change color on hover */
+ul.topnav li a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+div.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Use media query and show the flex items vertically if screen width is less than 600px */
+@media screen and (max-width:600px) {
+  div.flex-container {
+    flex-direction: column;
+  }
+} 
+footer {
+  background-color:#f1f1f1;
+  padding: 8px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width:100%;
+  z-index: 1000;
+  position: fixed;
+}
+
+img{
+position:center
+}
+</style>
+</head>
+<body>
+<ul class="topnav">
+  <li><a href="Home.htm.htm">Home</a></li>
+  <li><a href="MyCourses.htm">My Courses</a></li>
+  <li><a href="AddCourse.htm">Add Course</a></li>
+  <li><a href="ConectUs.htm">Conect Us</a></li>
+</ul>
+    <h1 style= "text-align:center"> Welcome to Personal Course Organizer</h1>
+    <p style= "text-align:center"> organize your learning journey with us</p>
+    <img ; src="image1.jpg" alt="educational photo" width="600" height="500" style="display: block; margin: 0 auto;">
+ 
+<div class="flex-container" width="100%">
+  <div>
+    <h2>Take your prograss</h2>
+    <p>Keep track of your prograss and achivements.</p>
+  </div>
+  <div> 
+    <h2>Manage your coursas</h2>
+	<p> Organize your courses and your lessons effortlessly.</p>
+  </div>
+  <div>
+    <h2> Set your goals</h2>
+	<p> set and achive your learning goals.</p>
+  </div>
+  <div>
+    <h2>Organize your schehule</h2>
+	<p>plan your study time and keep your courses in one organized pleace.</p>
+  </div>
+  <div>
+    <h2>Improve your oroductivity</h2>
+    <p>stay focused and manage your learning tasks more efficiently every day.</p> 
+  </div>	
+<footer>
+  <p>2025 Personal Course Organizer. all rights reserved. </p>
+</footer>
+</body>
+</html>

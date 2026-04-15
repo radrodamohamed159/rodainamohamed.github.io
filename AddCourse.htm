@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ul.topnav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #2C3E50;
+}
+
+/* Style links in topnav */
+ul.topnav li a {
+  display: block;
+  color: #f1f1f1;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+ul.topnav li a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+form {
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+label {display: block;}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #2C3E50;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+footer {
+  background-color:#f1f1f1;
+  padding: 8px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width:100%;
+  z-index: 1000;
+  position: fixed;
+}
+</Style>
+</head>
+<body>
+<ul class="topnav">
+  <li><a href="Home.htm">Home</a></li>
+  <li><a href="MyCourses.htm">My Courses</a></li>
+  <li><a href="AddCourse.htm">Add Course</a></li>
+  <li><a href="ConectUs.htm">Conect Us</a></li>
+</ul> 
+<form action="/action_page.php">
+  <label for="fname"></label>
+  <input type="text" id="fname" name="Course Name" placeholder="Course Name..">
+
+  <label for="lname"></label>
+  <input type="text" id="lname" name="Instructor" placeholder="Instructor..">
+
+  
+   
+   <label for="lname"></label>
+  <input type="text" id="lname" name="Hours" placeholder="Hours..">
+  
+   <label for="lname"></label>
+  <input type="text" id="lname" name="Notes" placeholder="Notes..">
+  
+  <input type="submit" value="Submit">
+</form>
+<footer>
+  <p>2025 Personal Course Organizer. all rights reserved. </p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
